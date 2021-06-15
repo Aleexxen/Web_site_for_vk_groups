@@ -23,7 +23,6 @@
                 <div class="col-sm-4 offset-md-1 py-4">
                     <h4 class="text-white">Фильтры</h4>
                     <ul class="list-unstyled">
-<!--                        <li><a href="#" class="text-white" id="f_subscribers">По количеству подписчиков</a></li>-->
                         <li><button type="button" class="btn btn-sm btn-outline-secondary" id="f_subscribers">По количеству подписчиков</button></li>
                         <li><button type="button" class="btn btn-sm btn-outline-secondary" id="f_cap">По длине подписи</button></li>
                         <li><button type="button" class="btn btn-sm btn-outline-secondary" id="f_name">По названию</button></li>
@@ -93,8 +92,8 @@
                             <div class="card-header py-3">
                                 <h4 class="card-name fw-normal"><?php echo $group_name ?></h4>
                             </div>
-                            <img class="card-img-top embed-responsive-item" width="100%" height="225"
-                                 src="img/<?php echo $i ?>.jpg" alt=""/>
+                            <img class="card-img-top embed-responsive-item img-fluid rounded-circle shadow" width="100%" height="225"
+                                 src="img/<?php echo $i ?>.jpg" alt="" />
                             <!--                        <div class="card-header py-3">-->
                             <!--                            <h4 class="my-0 fw-normal">--><?php //echo $group_name
                             ?><!--</h4>-->

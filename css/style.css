@@ -7,3 +7,19 @@
     overflow: auto;
     text-overflow: ellipsis;
 }
+
+/*html {*/
+/*    background: url(/html_background.jpg) no-repeat center center fixed;*/
+/*    -webkit-background-size: cover;*/
+/*    -moz-background-size: cover;*/
+/*    -o-background-size: cover;*/
+/*    background-size: cover;*/
+/*}*/
+
+/*.container {*/
+/*    background-image: url(/html_background.jpg);*/
+/*}*/
+
+/*.card-body {*/
+/*    background-image: url(/html_background.jpg);*/
+/*}*/
