@@ -1,0 +1,9 @@
+.card-body {
+}
+
+.card-text {
+    width: 100%;
+    height: 225px;
+    overflow: auto;
+    text-overflow: ellipsis;
+}
