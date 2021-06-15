@@ -5,12 +5,7 @@ let header = document.getElementById('navbarHeader');
 let button = document.getElementById('navbarToggler');
 
 button.addEventListener('click', () => {
-    // header.classList.toggle('show');
     header.classList.toggle('show');
-    // header.classList.add('collapsing');
-    // header.addEventListener('animationend', () => {
-    //     header.classList.toggle('collapsing');
-    // })
 })
 
 // Действия на кнопки
