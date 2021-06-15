@@ -1,6 +1,6 @@
 # Web_site_for_vk_groups
 
-This client / server application displays ***15 groups*** from my VK community recommendations  
+This client / server application displays ***15 groups*** from my VK community recommendations. Runs on local server.  
 
 ***index.php*** - Main program launch file.  
 ***get_groups.php*** - File to get information from the list of my groups, uses the service access key of the application.  
