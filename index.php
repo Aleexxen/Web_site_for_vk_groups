@@ -13,7 +13,7 @@
 </head>
 <body>
 <header>
-    <div class="bg-dark collapse" id="navbarHeader" style="">
+    <div class="bg-dark collapse" id="navbarHeader">
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-md-7 py-4">
@@ -92,7 +92,7 @@
                             <div class="card-header py-3">
                                 <h4 class="card-name fw-normal"><?php echo $group_name ?></h4>
                             </div>
-                            <img class="card-img-top embed-responsive-item" width="100%" height="225"
+                            <img class="card-img-top embed-responsive-item img-fluid rounded-circle shadow" width="100%" height="225"
                                  src="img/<?php echo $i ?>.jpg" alt="" />
                             <!--                        <div class="card-header py-3">-->
                             <!--                            <h4 class="my-0 fw-normal">--><?php //echo $group_name
@@ -117,6 +117,14 @@
         </div>
     </div>
 </main>
+<footer class="text-muted py-5">
+    <div class="container">
+        <p class="float-end mb-1">
+            <a href="#">Back to top</a>
+        </p>
+        <p class="mb-1">Спасибо что заглянули на сайт © Алексеева Ксения</p>
+    </div>
+</footer>
 <!--Действия для фильтров-->
 <script src="js/filter.js"></script>
 </body>
